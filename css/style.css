@@ -671,6 +671,7 @@ button:focus {
 /*******************END FOOTER****************/
 
 /*************Modal Overlay***************/
+
 .modal-overlay {
   position: fixed;
   background-color: rgba(46, 47, 66, 0.4);
@@ -830,19 +831,11 @@ button:focus {
 
 
 .checkbox-accept {
-  /*
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 360px;*/
   margin-bottom: 24px;
 
 }
 
 .label {
-  /*
-  display: flex;
-  align-items: center;*/
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
