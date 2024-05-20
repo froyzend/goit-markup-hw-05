@@ -866,7 +866,7 @@ button:focus {
 
 
 
-.checkbox-input:checked+.label .checkbox-span {
+.checkbox-input:checked+.label>checkbox-span {
   border: none;
   fill: #f4f4fd;
   background-color: #4D5AE5;
