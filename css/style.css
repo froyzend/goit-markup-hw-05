@@ -789,7 +789,6 @@ button:focus {
 
 .form-input-class:focus {
   border-color: #4d5ae5;
-  outline: transparent;
 }
 
 .input-icon {
@@ -851,8 +850,6 @@ button:focus {
   display: inline-flex;
   width: 16px;
   height: 16px;
-  /*
-  cursor: pointer;*/
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   justify-content: center;
@@ -866,10 +863,13 @@ button:focus {
   color: #4d5ae5;
 }
 
+
+
+
 .checkbox-input:checked+.label .checkbox-span {
-  background-color: #4D5AE5;
   border: none;
   fill: #f4f4fd;
+  background-color: #4D5AE5;
 }
 
 .form-btn {
