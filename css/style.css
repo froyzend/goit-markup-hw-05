@@ -859,11 +859,11 @@ button:focus {
 }
 
 
-.checkbox-input:checked + .label > .checkbox-span {
+.checkbox-input:checked+.label>.checkbox-span {
   border: none;
   border-color: #404bbf;
   fill: #f4f4fd;
-  background-color: #4D5AE5;
+  background-color: #404bbf;
 }
 
 .privacy-policy-link {
