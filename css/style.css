@@ -843,7 +843,6 @@ button:focus {
 
 .checkbox-input {
   display: none;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-span {
@@ -860,8 +859,9 @@ button:focus {
 }
 
 
-.checkbox-input:checked+.label>.checkbox-span {
+.checkbox-input:checked + .label > .checkbox-span {
   border: none;
+  border-color: #404bbf;
   fill: #f4f4fd;
   background-color: #4D5AE5;
 }
