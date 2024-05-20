@@ -859,17 +859,15 @@ button:focus {
   margin-right: 8px;
 }
 
-.privacy-policy-link {
-  color: #4d5ae5;
-}
 
-
-
-
-.checkbox-input:checked+.label>checkbox-span {
+.checkbox-input:checked+.label>.checkbox-span {
   border: none;
   fill: #f4f4fd;
   background-color: #4D5AE5;
+}
+
+.privacy-policy-link {
+  color: #4d5ae5;
 }
 
 .form-btn {
